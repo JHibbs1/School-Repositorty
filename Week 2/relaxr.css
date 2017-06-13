@@ -1,66 +1,117 @@
-body {
-  background size:cover;
-  padding: 25px 0;
-  overflow: hidden;
-  background-image:url(header_bg.jpg);
-  font-family:'Open Sans',sans-serif;
-  text-align: center;
+body{
+  color:white;
+  font-size: 20px;
+  color:white;
+  font-family: 'Arial, Helvetica, sans-serif';
+  font-style: normal;
+  font-weight: 200;
+  margin-top: 200;
 }
 
 header{
-  background size:cover;
-  padding: 25px 0;
-  overflow: hidden;
-  background-image:url(header_bg.jpg);
-  font-family:'Open Sans',sans-serif;
-}
-.button{
-  background-color: yellow;
-  border:none;
-  padding:20px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
   font-size: 15px;
-
-
-}
-
-}
-div{
-
-  background-color:#f0efef;
-  font-size: 13px;
-  background-image: url(testimonial_ng.jpg);
-  font-style:sans;
-  text-align: center;
-  text-align: right;
-  text-align: left; 
-  text-decoration-color: white;
-
-}
-
-div{
-background-color: white;
-background-image: url(testimonial_ng.jpg);
-
-}
-h1 {
-  text-align:left;
+  line-height: 1.0;
   color:white;
-  font-size: 18px;
-}
-h2 {
+  font-weight: 100px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  background-image:url("images/header_bg.jpg"); 
+
+  padding: 80px;
+  text-align:right;
   text-align: center;
-  font-family: helvetica;
-  color: white;
+  
+  
 }
+h1{
+  text-align:left;
+  font-size: 20px
+  font-weight:800;
+}
+h2{
+  font-family: 'Open-Sans';
+  font-style: normal;
+  font-size: 24px;
+  font-weight:800; 
+}
+
 
 footer{
   background: #121212;
-  padding: 65px 0 45px;
+  background-color:black;
+  padding: 60px 10px 50px;
   text-align: center;
+  color: yellow;
+  padding: 20px;
+
 }
+h1{
+  text-align: center
+}
+
+.yellow{
+  background-color: yellow;
+  color:black;
+  font-family: 'Open-Sans';
+  font-style: normal;
+  font-size: 15px;
+
+}
+
+.button {
+  border-radius: 10px;
+  font-weight: 800;
+  padding: 10px 0;
+  width: 250px;
+  font-size: 15px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  text-decoration: none;
+}
+
+.blue{
+  background-color:#333399;
+  color:white;
+  font-family:'Open-Sans';
+  font-style: normal;
+  font-size: 15px;
+  text-align: center;
+
+  
+
+}
+
+h3{
+  background-color: white;
+  color: grey;
+  width:900px;
+  padding: 10px;
+  border: 5px white;
+  font-family:'Open-Sans';
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.testimonial{
+  padding: 12% 28%;
+  font-size: 18px;
+  font-family:'Open-Sans';
+  font-style: normal;
+  font-weight: 100;
+  text-align: center;
+  color:white;
+  background-image: url("images/testimonial_bg.jpg");
+ }
+
+h4 {
+  background-color: yellow;
+  
+
+
+}
+
+
 
 
 
