@@ -1,0 +1,29 @@
+<!doctype Html>
+<html>
+<head>	
+	<title>Thanks,Jeff!</title>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+	<header>	
+		<nav>	
+			<em>About Me</em>
+			<a href="#"> Portfolio </a>
+		</nav>
+		<h1> Joe Johnson</h1>
+	</header>
+	<hr>
+	<h2> I enjoy as a developer</h2>
+	<p>
+		I'm Joe Johnson, a developer based in NYC. I have ten year of experience in the graphic design world, specializing in the creation of responsive websites.
+	</p>
+	<img src="http://via.placeholder.com/200x200">
+	<hr>
+	<footer>
+			<a href="#">facebook</a>
+			<a href="#">Twitter</a>
+			<a href="#">Linked In</a>
+		</nav>
+	</footer>
+</body>
+</html>
