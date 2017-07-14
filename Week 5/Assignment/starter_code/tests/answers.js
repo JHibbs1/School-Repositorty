@@ -84,14 +84,13 @@ function clamp(arg1, arg2, arg3){
     return arg1;
   }
 }
-
-
 /* -------------------------------------------------- */
 
 // 8. Create a function called average that takes an array of numbers as its argument.
 // This function should return the average of the numbers in that array. Be sure to account
 // for empty elements in the array. Hint: you can use the typeof operator to see if a value
-// is equal to "number"
+// is equal to "number"function average(arrayId){
+
 
 
 /* -------------------------------------------------- */
