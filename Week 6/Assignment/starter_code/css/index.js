@@ -8,36 +8,30 @@ $(document).ready(function(){
 		// conver the stored value to lowercase
 		cityValue=cityValue.toLowerCase();
 
+		//console.log(value);
+
 		if(cityValue==="new york"||cityValue==="new york city"||cityValue==="nyc"){
 			//background Image changes to NYC
-			$('body').css('background-image', 'url(images/nyc.jpg)');
 			console.log("make background new york");
 		}
 		else if(cityValue==="san francisco"||cityValue==="sf"||cityValue==="bay area"){
 			//background Image changes to San Francisco
-			$('body').css('background-image', 'url(images/sf.jpg)');
 			console.log("make background san francisco");
 		}
 		else if(cityValue==="los angeles"||cityValue==="la"||cityValue==="lax"){
 			//background Image changes to Los Angeles
-			$('body').css('background-image', 'url(images/la.jpg)');
 			console.log("make background los angeles");
 		}
 		else if(cityValue==="austin"||cityValue==="aus"||cityValue==="atx"){
-			//background Image changes to austin
-			$('body').css('background-image', 'url(images/austin.jpg)');
-			console.log("make background austin")
-
+			//background Image changes to Austin
+			console.log("make background austin");
 		}
 		else if(cityValue==="sydney"||cityValue==="syd"||cityValue==="sydney"){
 			//background Image changes to Sydney
-			$('body').css('background-image', 'url(images/syd.jpg)');
 			console.log("make background sydney");
 		}
-	});
 });
-
-
+  
 
 // - "new york" or "new york city" or "nyc" make the background of the page nyc.jpg
 // - "san francisco" or "sf" or "bay area" make the background of the page sf.jpg
