@@ -31,7 +31,7 @@ $(document).ready(function(){
 		}
 		else if(cityValue==="sydney"||cityValue==="syd"||cityValue==="sydney"){
 			//background Image changes to Sydney
-			$('body').css('background-image', 'url(images/syd.jpg)');
+			$('body').css('background-image', 'url(images/sydney.jpg)');
 			console.log("make background sydney");
 		}
 	});
