@@ -7,31 +7,7 @@ $(document).ready(function(){
 		$("#city-type").val("");
 		// conver the stored value to lowercase
 		cityValue=cityValue.toLowerCase();
-<<<<<<< HEAD
-		// console.log(value);
-		if(cityValue==="new york"||cityValue==="new york city"||cityValue==="nyc"){
-			//background Image changes to NYC
-			console.log("make background new york");
-		}
-		else if(cityValue==="san francisco"||cityValue==="sf"||cityValue==="bay area"){
-			//background Image changes to NYC
-			console.log("make background san francisco");
-		}
-		else if(cityValue==="new york"||cityValue==="new york city"||cityValue==="nyc"){
-			//background Image changes to NYC
-			console.log("make background new york");
-		}
-		else if(cityValue==="new york"||cityValue==="new york city"||cityValue==="nyc"){
-			//background Image changes to NYC
-			console.log("make background new york");
-		}
-		else if(cityValue==="new york"||cityValue==="new york city"||cityValue==="nyc"){
-			//background Image changes to NYC
-			console.log("make background new york");
-		}
-	})
-}); 
-=======
+
 
 		if(cityValue==="new york"||cityValue==="new york city"||cityValue==="nyc"){
 			//background Image changes to NYC
@@ -63,7 +39,7 @@ $(document).ready(function(){
 });
 
 
->>>>>>> gh-pages
+
 
 // - "new york" or "new york city" or "nyc" make the background of the page nyc.jpg
 // - "san francisco" or "sf" or "bay area" make the background of the page sf.jpg
@@ -81,10 +57,7 @@ $(document).ready(function(){
 //When Austin is entered in the "enter a city"field
 //background Image changes to Austin
 //When NYC is entered in the "enter a city"field
-<<<<<<< HEAD
 
-=======
->>>>>>> gh-pages
 //When Sydney is entered in the "enter a city"field
 //background Image changes to Sydney
 
