@@ -1,0 +1,19 @@
+$(document).ready(function(){
+	$(".readmore").click(function(event){
+		event.preventDefault();
+		$(".readmore").hide();
+		$("#show-click").slideDown("slow");
+		$(".readless").show();
+	});
+	$(".learnmore").click(function(event){
+		event.preventDefault();
+		$(".learnmore").hide();
+		$("#learnmoretext").slideDown("slow");
+	});
+	$(".readless").click(function(event){
+			event.preventDefault();
+			$("#show-click").slideUp("slow");
+			$(".readless").hide();
+			$(".readmore").show();
+	});
+});
