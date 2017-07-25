@@ -306,31 +306,26 @@ blockquote span {
       font-size: 1.25em;
       clear:both;
       float:none;
-
     }
     .container{
       margin: 0 auto;
-
     }
-
-
 
     #benefits p{
       font-size: 1em;
-
     }
+
     .toggle-mobile-nav {
       display: block;
-
-}
+    }
 
     .hide-on-mobile{
+      display: none;
+    }
 
-      height: 60px;
+/*      height: 60px;
       float: right;
       font-size: 3.0em;
-      display: none;
-      margin-right: 10px;
-    }
+      margin-right: 10px;*/
 }
 
