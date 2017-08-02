@@ -100,9 +100,9 @@ header nav ul li a {
   width: 65px;
   height: 65px;
   font-size: 2.0em;
-  background: #f9e42e;
   margin-right: 12px;
   display: none;
+  float: right;
 }
 
 #hero {
@@ -175,7 +175,7 @@ blockquote {
   font-weight: 600;
 }
 
-*.button {
+.button {
   border-radius: 5px;
   font-weight: 800;
   padding: 12px 0;
@@ -193,114 +193,150 @@ blockquote {
   background: #033048;
   color: #fff;
   font-size: 24px;
-  }*/
-
-  #sidebar h3 {
-    font-size: 32px;
-    font-weight: 800;
-    margin-bottom: 15px;
-    color: #043049;
-  }
-  #sidebar ul {
-    margin-bottom: 40px;
-  }
-  #sidebar ul li a {
-    color: #043049;
-    font-size: 24px;
-  }
-  #sidebar p {
-    font-size: 22px;
-    line-height: 1.1;
-    margin-bottom: 40px;
-  }
-  #sidebar p a {
-    color: #043049;
-    font-weight: 600;
-  }
-
-  #bottom-cta {
-    background: #f9e42e;
-    padding: 30px;
-    text-align: center;
-  }
-
-  footer {
-    background: #121212;
-    padding: 65px 0 45px;
-    text-align: center;
-  }
-  footer .logo {
-    color: #f9e42e;
-    margin-bottom: 68px;
-  }
-  footer ul li {
-    display: inline-block;
-    list-style: none;
-    margin: 0 26px 75px;
-  }
-  footer p {
-    font-size: 18px;
-    color: #fff;
-    font-weight: 600;
-  }
-
-
-  @media screen and (max-width:575px){
-    <nav class="mobile-keepaway">
-
-    page-header{
-      padding:10px;
-      font-size: .15em;
-    }
-
-    #benefits li {
-
-      padding-left: 5px;
-      width: 325px;
-
-    }
-
-    #benefits p{
-      padding-left: 10px;
-      width: 360px;
-    }
-    #benefits ul {
-      margin-left: 20px;
-
-    }
-    #hero h2{
-      font-size:.75em;
-    }
-    .container{
-      width:auto;}
-
-      #testimonial {
-        padding: 20px 0;
-        color: #fff;
-      }
-      blockquote {
-        font-size:.8em;
-        text-align: center;
-        width: 250px;
-        margin: 0 auto;
-      }
-
-      #main {
-        margin-top:30px;
-      }
-      #main h2{
-        padding-left: 20px;
-        font-size: .5em;
-      }
-
-      .post {
-        padding-bottom: 40px;
-        margin-bottom: 40px;
-      }
-#sidebar{
-  width: 712px;
 }
-  #sidebar h3{
-    margin-top: 20px;
+
+#sidebar h3 {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 15px;
+  color: #043049;
+}
+#sidebar ul {
+  margin-bottom: 40px;
+}
+#sidebar ul li a {
+  color: #043049;
+  font-size: 24px;
+}
+#sidebar p {
+  font-size: 22px;
+  line-height: 1.1;
+  margin-bottom: 40px;
+}
+#sidebar p a {
+  color: #043049;
+  font-weight: 600;
+}
+
+#bottom-cta {
+  background: #f9e42e;
+  padding: 30px;
+  text-align: center;
+}
+
+footer {
+  background: #121212;
+  padding: 65px 0 45px;
+  text-align: center;
+}
+footer .logo {
+  color: #f9e42e;
+  margin-bottom: 68px;
+}
+footer ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 26px 75px;
+}
+footer p {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 600;
+}
+
+
+@media screen and (max-width:575px){
+  .hide-on-mobile{
+    display: none;
+
   }
+
+
+  .container{
+    width: auto;
+  }
+
+  header {
+    padding: 0 10px;
+  }
+
+
+  #benefits li,{
+    font-size: .5em;
+  }
+
+  #benefits p {
+    padding-left: 15px;
+    width: 360px;
+  }
+
+  #benefits ul {
+    margin-left: 25px;
+    width: 350px;
+  }
+
+  #hero h2 {
+    font-size: .85em;
+  }
+
+  blockquote {
+    font-size: .7em;
+    width: 300px;
+  }
+
+  #testimonial {
+    padding: 25px 0;
+  }
+
+  h2{
+    font-size: .75em;
+    padding-left: 5px;
+    float:block;
+    max-width: 90%;
+  }
+  img{
+    width: 100%;
+
+
+  }
+
+
+  .readmore {
+    margin-top: 15px;
+    float:left;
+
+  }
+
+
+  .post {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    float: left;
+  }
+  .post {
+   float: left
+   margin-bottom: 20px;
+ }
+ .toggle-mobile-nav {
+  display: block;
+
+}
+
+h3 {
+  font-size: 1em;
+}
+
+
+footer {
+  padding: 20px 0 10px;
+}
+
+footer .logo {
+  margin-bottom: 20px;
+}
+
+footer ul li {
+  margin: 0 10px 15px;
+}
+
 }

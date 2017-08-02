@@ -302,6 +302,10 @@ blockquote span {
 
 
   @media screen and (max-width:768px){
+    .hide-on-mobile{
+      display: none;
+
+    }
 
     #page-header h1 {      
       margin-top: 20px;
@@ -438,7 +442,7 @@ blockquote span {
       float: left;
       float:right;
       display: block;
-}
+    }
 
     .hide-on-mobile{
       display: none;
@@ -447,4 +451,3 @@ blockquote span {
 
 
   }
-
