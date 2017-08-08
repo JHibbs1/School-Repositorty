@@ -24,17 +24,20 @@ body {
      font-family: 'Chango', cursive;
      margin: 0;
      background-image: url("images/background.jpg");
+     background-size:80%;
 
      
 }
 body > div {
        background:grey;
        background-image: url("images/background.jpg");
+       background-size: 75%;
 }
 header {
   background-color: grey;
   font-family:'Chango', cursive;
   background-image: url("images/background.jpg");
+  background-size: 75%;
  
 
 }
