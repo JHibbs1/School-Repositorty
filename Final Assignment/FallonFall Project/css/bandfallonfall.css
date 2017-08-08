@@ -17,6 +17,7 @@ body {
 	margin: 0;
 	background-color: grey;
 	background-image: url("images/fallonfallband.jpg");
+	background-size: 100px;
 
 }
 
@@ -29,7 +30,7 @@ header {
 	color: #fff;
 	background-color:grey;
 	font-family:'Chango', cursive;
-	background-size: 75px;
+	background-size: 40px;
 	background-image: url("images/fallonfallband.jpg")
 
 }

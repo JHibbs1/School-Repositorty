@@ -11,17 +11,18 @@
 	color: black;
 }
 body {
-	color: black;
+	color: white;
 	font-size: 20px;
 	font-family: 'Chango', cursive;
 	margin: 0;
 	background-color: grey;
-background-image: url("images/fallonfallband.jpg");
+	background-image: url("images/fallonfallband.jpg");
+	background-size: 100%;
 
 }
 
 header {
-	color: black;
+	color: white;
 	font-size: 15px;
 	line-height: 1.4;
 	font-family: 'Chango', cursive;
@@ -29,7 +30,7 @@ header {
 	color: #fff;
 	background-color:grey;
 	font-family:'Chango', cursive;
-	background-size: 75px;
+	background-size: 40px;
 	background-image: url("images/fallonfallband.jpg")
 
 }
