@@ -9,9 +9,13 @@
      clear: both;
      visibility: hidden;
      height: 0;
-     background-image: url("images/background.jpg.PNG");
+     background-image: url("images/background.jpg");
      color: black;
     
+}
+
+.hidden {
+  display: none;
 }
 body {
      color: #000;
@@ -19,18 +23,18 @@ body {
      line-height: 1.4;
      font-family: 'Chango', cursive;
      margin: 0;
-     background-image: url("images/background.jpg.PNG");
+     background-image: url("images/background.jpg");
 
      
 }
 body > div {
        background:grey;
-       background-image: url("images/background.jpg.PNG");
+       background-image: url("images/background.jpg");
 }
 header {
   background-color: grey;
   font-family:'Chango', cursive;
-  background-image: url("images/background.jpg.PNG");
+  background-image: url("images/background.jpg");
  
 
 }
@@ -40,7 +44,7 @@ h1 {
   margin: 3% auto;
   overflow: auto;
   font-family:'Chango', cursive;
-  background-image: url("images/background.jpg.PNG");
+  background-image: url("images/background.jpg");
  
 }
 nav{
@@ -87,8 +91,8 @@ aside {
   width: 20%;
   float: right;
   text-align: left;
-  font-size: 12px;
-  font-color:grey;
+  font-size: 15px;
+
 }
 .aboutthesegentlemen{
   font-size: 15px;
@@ -178,8 +182,14 @@ aside > img {
 
 
   footer {
+    height: 10%;
     overflow: auto;
+    padding-top: none;
   }
+  #footernav{
+    vertical-align: 5%;
+  }
+  
   footer h2 {
     padding: 1% 0 0 0;
     margin: 0 0 1% 0;
@@ -246,7 +256,7 @@ aside > img {
 
   }
   article:last-child {
-    margin-bottom: 80px;
+    margin-bottom: 50px;
   }
   .navLinks {
     font-size: 18px;
@@ -255,6 +265,8 @@ aside > img {
   .floatNav {
     margin: 6%;
   }
-  .hide {
+  .toggle-hide {
   display: none;
+
+
 }

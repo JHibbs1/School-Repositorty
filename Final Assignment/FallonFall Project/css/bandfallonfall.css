@@ -1,0 +1,42 @@
+{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box; 
+	box-sizing: border-box; 
+}
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	background-image: url("images/fallonfallband.jpg");
+	color: black;
+}
+body {
+	color: white;
+	font-size: 20px;
+	font-family: 'Chango', cursive;
+	margin: 0;
+	background-color: grey;
+	background-image: url("images/fallonfallband.jpg");
+
+}
+
+header {
+	color: white;
+	font-size: 15px;
+	line-height: 1.4;
+	font-family: 'Chango', cursive;
+	margin: 20%;
+	color: #fff;
+	background-color:grey;
+	font-family:'Chango', cursive;
+	background-size: 75px;
+	background-image: url("images/fallonfallband.jpg")
+
+}
+
+header h1{
+	font-size: 20px;
+}
+
+
+
